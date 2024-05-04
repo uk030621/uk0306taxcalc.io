@@ -36,11 +36,10 @@ function updateDateTime() {
   datetimeElement.innerHTML = 'Current Date and Time: ' + dateTimeString;
 }
 
-closeButton.addEventListener('click', function() {
-    // Close the current window
-    window.close();
-});
-
+window.onload = function() {
+  updateDateTime(); // Initial update
+  setInterval(updateDateTime, 1000); // Update every second
+};
 
 
 // This function is responsible for displaying the table where the tax breakdown will be shown. 
