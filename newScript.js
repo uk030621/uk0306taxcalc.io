@@ -36,10 +36,14 @@ function updateDateTime() {
   datetimeElement.innerHTML = 'Current Date and Time: ' + dateTimeString;
 }
 
-window.onload = function() {
-  updateDateTime(); // Initial update
-  setInterval(updateDateTime, 1000); // Update every second
-};
+closeButton.addEventListener('click', function() {
+    // Redirect users to the desired page
+    window.location.href = 'https://uk030621.github.io/uk0306taxcalc.io/';
+
+    // Close the current window after redirecting
+    window.open('', '_self', '');
+    window.close();
+});
 
 
 // This function is responsible for displaying the table where the tax breakdown will be shown. 
