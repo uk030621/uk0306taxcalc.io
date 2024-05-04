@@ -1,0 +1,48 @@
+{
+    "personalAllowance": 12570,
+    "basicLimit": 50270,
+    "basicRate": 0.2,
+    "higherRate": 0.4,
+    "highestRate": 0.45,
+    "highestLimit": 125140,
+
+    "NI1": 12576,
+    "NI2": 50268,
+    
+    "NIClass1StandardRate": 0.08,
+    "NIClass1HighRate":0.02,
+    "TaperLimit": 100000,
+    
+    "class2FlatRate": 0,
+    "class4Standard": 0.06,
+    "class4Higher": 0.02,
+
+    "scotTaper": 100000,
+
+    "SRb": 12571,
+    "SRe": 14876,
+    "RATE1": 0.19,
+
+    "SBRb":14877,
+    "SBRe":26561,
+    "RATE2": 0.20,
+
+    "IRb": 26562,
+    "IRe": 43662,
+    "RATE3": 0.21,
+
+    "HRb":43663,
+    "HRe":75000,
+    "RATE4": 0.42,
+
+    "ARb":75001,
+    "ARe":137710,
+    "RATE5": 0.45,
+
+    "topRATE":125140,
+    "RATE6": 0.48
+
+
+
+
+}
