@@ -37,13 +37,10 @@ function updateDateTime() {
 }
 
 closeButton.addEventListener('click', function() {
-    // Redirect users to the desired page
-    window.location.href = 'https://uk030621.github.io/uk0306taxcalc.io/';
-
-    // Close the current window after redirecting
-    window.open('', '_self', '');
+    // Close the current window
     window.close();
 });
+
 
 
 // This function is responsible for displaying the table where the tax breakdown will be shown. 
