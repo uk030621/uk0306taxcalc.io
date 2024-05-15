@@ -7,7 +7,7 @@ body {
     margin-left: 10px;
     color: black;
     /*background-color: black;*/
-    height: 100vh;
+    min-height: 100vh;
     background-color: hsl(0, 0%, 95%);
     background-image: url('cloud.jpg');
     background-size: cover;
