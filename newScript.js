@@ -624,7 +624,7 @@ function calculateTax() {
     
     // UK TAX
     var scotformattedSumTax = formatNumberWithDecimalPlacesAndCommas(stax+flagMA, 0)
-    var scotformattedSumTaxmonth = formatNumberWithDecimalPlacesAndCommas(stax+(flagMA/12), 0)
+    var scotformattedSumTaxmonth = formatNumberWithDecimalPlacesAndCommas((stax+flagMA)/12, 0)
 
     document.getElementById("scotaxtot").innerText = "£" + scotformattedSumTax;
     document.getElementById("scotaxtotm").innerText = "£" + scotformattedSumTaxmonth;
