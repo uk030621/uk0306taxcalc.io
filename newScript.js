@@ -36,6 +36,11 @@ function updateDateTime() {
   datetimeElement.innerHTML = 'Current Date and Time: ' + dateTimeString;
 }
 
+window.onload = function() {
+  updateDateTime(); // Initial update
+  setInterval(updateDateTime, 1000); // Update every second
+};
+
 const closeButton = document.getElementById('closeButton');
 
 closeButton.addEventListener('click', function() {
